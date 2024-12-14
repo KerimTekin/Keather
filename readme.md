@@ -26,10 +26,16 @@ This project is a weather application. By entering a city name in the search bar
 6. Start the project by running the following command:
    npx expo start
 
-7. Finally, download Expo Go from the following link:
+7. Go to [OpenWeatherMap](https://openweathermap.org/) and sign up for an account to get your API key.
+
+8. After you obtain your API key, go to the myApi.js file in the project and replace your_api_key on line 4 with your API key.
+
+9. Similarly, open the Homepage.js file and replace your_api_key on line 28 with your API key.
+
+10. Finally, download Expo Go from the following link:
    https://expo.dev/go
 
-8. Open the Expo Go app on your mobile device and scan the QR code that appears in your terminal to view the application.
+11. Open the Expo Go app on your mobile device and scan the QR code that appears in your terminal to view the application.
 
    Now your project is ready to use!
 
