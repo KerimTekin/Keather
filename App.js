@@ -10,14 +10,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator
-        drawerContent={(props) => <SliderBar {...props} />}
-        screenOptions={{
-          drawerStyle: {
-            backgroundColor: "#004c70",
-          },
-        }}
-      >
+      <Drawer.Navigator>
         <Drawer.Screen
           name="Home"
           component={Homepage}
